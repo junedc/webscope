@@ -11,8 +11,6 @@
 
 <pre>
     cp .env.example .env
-    
-    touch database/database.sqlite (optional run only if usinq sqlite)
 </pre>
 
 <li>If you're using SQLite run this (Mac Only)</li>
