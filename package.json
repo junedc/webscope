@@ -24,6 +24,8 @@
         "vue-template-compiler": "^2.6.6"
     },
     "dependencies": {
-        "bootstrap-vue": "^2.0.0-rc.13"
+        "bootstrap-vue": "^2.0.0-rc.13",
+        "chart.js": "^2.7.3",
+        "vue-chartjs": "^3.4.0"
     }
 }

@@ -6,11 +6,13 @@
  */
 
 require('./bootstrap');
+require('./LineChart');
 
 window.Vue = require('vue');
 
 import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
+
 
 Vue.use(BootstrapVue)
 
