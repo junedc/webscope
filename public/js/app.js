@@ -1950,8 +1950,8 @@ __webpack_require__.r(__webpack_exports__);
       console.log("handleok");
       evt.preventDefault();
 
-      if (!this.todo.title) {
-        alert("Please enter title");
+      if (this.todo.title == '' || this.todo.description == '') {
+        alert("Please enter title and/or description");
       } else {
         this.updateTodos(this.todo);
       }
