@@ -13,8 +13,12 @@ window.Vue = require('vue');
 import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
 
-
 Vue.use(BootstrapVue)
+
+
+import moment from 'moment';
+window.moment = moment;
+
 
 /**
  * The following block of code may be used to automatically register your

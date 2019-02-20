@@ -195,7 +195,8 @@
                 let chartLabels = [];
 
                 _.each(this.todos, function (key, value) {
-                    chartLabels.push(key.title);
+                    console.log(moment(key.created_at).format("HH:mm:ss"));
+                    chartLabels.push(moment(key.created_at).format("HH:mm:ss"));
                     allTaskCount++;
                     allTask.push(allTaskCount);
                     if (key.status === 'Active') {
