@@ -6,23 +6,11 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">TODO's</div>
-
                 <div class="card-body">
-                  
-
-  <todos></todos>
-
-
-
-
+                    <todos></todos>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-
-
-
-
 @endsection
